@@ -1,0 +1,324 @@
+@media screen and (max-width: 1440px) {
+    .auth-wrapper .auth-content {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .auth-wrapper .auth-content {
+        width: 80%;
+    }
+
+    .appointment-parent-class .sideBar-Parent-class.col-lg-9 {
+        width: 100%;
+    }
+
+    .appointment-parent-class .sideBar-Parent-class.col-lg-3 {
+        width: 40%;
+        position: absolute;
+        right: 0;
+        z-index: 1;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    .sm-screen-logo {
+        display: block;
+        width: 38px;
+        height: 38px;
+    }
+
+    .lg-screen-logo {
+        display: none;
+    }
+
+    .modify-navbar .navbar-text {
+        font-family: var(--primary-font);
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 28px;
+        color: #313131;
+        width: auto;
+        height: auto;
+    }
+
+    .modify-navbar .navbar-nav {
+        gap: 0.5rem;
+    }
+
+    .pricing-plan-section .pricing-cards {
+        grid-template-columns: auto;
+        gap: 20px;
+    }
+
+    .feature-section .feature-cards {
+        grid-template-columns: auto;
+        gap: 20px;
+    }
+
+    :is(.home-header-section, .chat-detail-section) .main-section {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .chat-detail-section .main-section {
+        flex-direction: column-reverse;
+    }
+
+    .chat-detail-section.second-detail .main-section {
+        flex-direction: column;
+    }
+
+    .faq-section .faq-cards {
+        grid-template-columns: auto;
+    }
+
+    .subscribe-section .inner-card form {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .auth-wrapper .auth-content {
+        width: 100%;
+        padding: 2rem 0.5rem;
+    }
+
+    .auth-content .sign-in-text {
+        text-align: center;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+    .auth-content .sign-in-subText {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .feature-section .feature-cards {
+        margin-top: 2rem;
+        gap: 25px;
+        grid-template-columns: auto;
+    }
+
+    :is(.feature-section, .pricing-plan-section, .faq-section) {
+        padding: 25px 0;
+    }
+
+    :is(.feature-section, .pricing-plan-section, .faq-section) h4 {
+        font-size: 14px;
+        line-height: 22.4px;
+        color: #7A7A7A;
+        width: 100%;
+    }
+
+    :is(.feature-section, .pricing-plan-section, .faq-section) h2 {
+        font-size: 24px;
+        line-height: 30px;
+        width: 70%;
+        margin: auto;
+        margin-bottom: 0.7rem;
+    }
+
+    .feature-section .feature-cards .card h3 {
+        font-size: 16px;
+        line-height: 22.4px;
+        width: 80%;
+        margin-bottom: 0.5rem;
+    }
+
+    .feature-section .feature-cards .card p {
+        font-size: 13px;
+        line-height: 20.8px;
+    }
+
+    .chat-detail-section .main-section .a-side h1 {
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .chat-detail-section .main-section .a-side p {
+        font-size: 16px;
+        line-height: 24px;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .pricing-plan-section .pricing-cards {
+        margin-top: 2.5rem;
+        grid-template-columns: auto;
+        gap: 20px;
+    }
+
+    .pricing-plan-section .pricing-cards :is(.card, .card.active) {
+        padding: 1rem;
+        width: 100%;
+    }
+
+    .pricing-plan-section .pricing-cards h3 {
+        font-size: 22px;
+        line-height: 33px;
+        margin-bottom: 0.5rem;
+    }
+
+    .pricing-plan-section .pricing-cards p {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .pricing-plan-section .pricing-cards p b {
+        font-size: 28px;
+        line-height: 42px;
+    }
+
+    .pricing-plan-section .pricing-cards ul {
+        margin: auto;
+        margin-top: 1rem;
+        padding: 0 4rem;
+    }
+
+    .pricing-plan-section .pricing-cards ul li {
+        font-size: 16px;
+        line-height: 32px;
+    }
+
+    .pricing-plan-section .pricing-cards :is(.primary-btn.free-btn, .primary-btn.premium-btn, .primary-btn.enterprise-btn) {
+        margin-top: 1rem;
+        width: 100%;
+        padding: 8px 20px;
+    }
+
+    .faq-section .faq-cards {
+        margin-top: 1.5rem;
+        gap: 20px;
+        grid-template-columns: auto;
+    }
+
+    .faq-section .faq-cards .card h3 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .faq-section .faq-cards .card-body {
+        padding: 1.5rem;
+    }
+
+    .faq-section .faq-cards .card p {
+        font-size: 13px;
+        line-height: 21px;
+    }
+
+    .faq-section .faq-cards .card.active h3 {
+        margin-bottom: 0.5rem;
+    }
+
+    .subscribe-section .inner-card {
+        padding: 2rem;
+    }
+
+    .subscribe-section .inner-card h2 {
+        font-size: 22px;
+        line-height: 33px;
+    }
+
+    .subscribe-section .inner-card h4 {
+        font-size: 15px;
+        line-height: 23px;
+        width: 100%;
+    }
+
+    .subscribe-section .inner-card form {
+        width: 100%;
+    }
+
+    .subscribe-section .inner-card .primary-btn {
+        width: 100%;
+        padding: 6px;
+    }
+
+    .subscribe-section .inner-card .form-control {
+        padding: 7.5px;
+    }
+
+    .footer-section .top-section {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .footer-section .top-section .menus-list {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .footer-section .top-section .social-list {
+        gap: 15px;
+    }
+
+    .footer-section .top-section .menus-list a {
+        font-size: 13px;
+        line-height: 28px;
+    }
+
+    .chat-detail-section .main-section {
+        flex-direction: column-reverse;
+        gap: 25px;
+    }
+
+    .home-header-section .main-section {
+        gap: 25px;
+        flex-wrap: wrap;
+    }
+
+    .chat-detail-section.second-detail .main-section {
+        flex-direction: column;
+    }
+
+    .home-header-section .main-section .a-side h1 span {
+        font-size: 38px;
+    }
+
+    .home-header-section .main-section .a-side h1 {
+        font-size: 38px;
+        line-height: 52.9px;
+        text-align: center;
+    }
+
+    .home-header-section .main-section .a-side h4 {
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .home-header-section .main-section .a-side p {
+        font-size: 14px;
+        line-height: 22.4px;
+        width: 90%;
+        margin: auto;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .primary-btn {
+        font-size: 16px;
+        line-height: 28px;
+        padding: 8px 20px;
+    }
+
+    .primary-btn-sm {
+        text-align: center;
+    }
+
+    .home-header-section {
+        padding: 25px 0;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1390px;
+    }
+}
