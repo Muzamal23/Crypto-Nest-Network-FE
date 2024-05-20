@@ -10,8 +10,6 @@ const PATH = {
   HOME: "/",
   LOGIN_IN: "/log-in",
   ADD_FUNDS: "/add-funds",
-  CREATE_ACCOUNT: "/create-account",
-  FORGET_PASSWORD: "/forgot-password",
 
   // USER
   DASHBOARD: "/dashboard",

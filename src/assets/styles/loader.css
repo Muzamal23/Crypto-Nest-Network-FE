@@ -51,25 +51,25 @@
 }
 
 .ball_1 {
-  background-color: #840DC6;
+  background-color: #ED820E;
   top: 0;
   left: 0;
 }
 
 .ball_2 {
-  background-color: #2A67D6;
+  background-color: #fff;
   top: 0;
   left: 24px;
 }
 
 .ball_3 {
-  background-color: #8C23C9;
+  background-color: #ED820E;
   top: 24px;
   left: 0;
 }
 
 .ball_4 {
-  background-color: #5287DE;
+  background-color: #fff;
   top: 24px;
   left: 24px;
 }

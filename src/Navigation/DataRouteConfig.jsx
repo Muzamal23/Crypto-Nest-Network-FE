@@ -7,13 +7,7 @@ PathName.splice(0, 1);
 const INITIAL_VALUE = PathName.map((item) => {
   const Val = WEB_PAGES[item];
 
-  if (
-    item === "LOGIN_IN" ||
-    item === "ADD_FUNDS" ||
-    item === "CREATE_ACCOUNT" ||
-    item === "FORGET_PASSWORD" ||
-    item === "HOME"
-  ) {
+  if (item === "LOGIN_IN" || item === "ADD_FUNDS" || item === "HOME") {
     return { path: PATH[item], page: <Val />, route: "PublicRoute" };
   }
   if (item === "HOME") {
